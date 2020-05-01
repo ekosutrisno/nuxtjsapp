@@ -2,12 +2,23 @@
   <div class="container min-h-screen flex justify-center items-center text-center mx-auto">
     <div>
       <logo />
-      <h1 class="block tracking-normal text-gray-primary text-7xl font-semibold">Eko Sutrisno</h1>
-      <h2 class="text-green-primary font-normal pb-5 text-4xl">Portofolio Using TailwinCss</h2>
+      <h1 class="block tracking-normal text-gray-primary text-4xl xl:text-7xl font-semibold">Eko Sutrisno</h1>
+      <h2 class="text-green-primary font-normal pb-5 text-2xl xl:text-4xl">Portofolio Using TailwindCss</h2>
       <div class="pt-4">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-        <nuxt-link to="/about" class="button--green">About</nuxt-link>
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green"
+        >Documentation</a>
+        <a
+          href="https://github.com/nuxt/nuxt.js"
+          target="_blank"
+          class="button--grey"
+        >GitHub</a>
+        <nuxt-link
+          to="/about"
+          class="button--green"
+        >About</nuxt-link>
       </div>
     </div>
   </div>
