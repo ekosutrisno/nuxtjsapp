@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full bottom-0 left-0 right-0 fixed bg-gray-dark border-t border-gray-600 lg:hidden">
-    <div class="mx-4 py-3 px-2  md:mx-6 md:py-5 flex justify-between">
+  <div class="nv-transition w-full bottom-0 left-0 right-0 fixed bg-gray-dark border-t border-gray-600 lg:hidden">
+    <div class="mx-auto lg:mx-4 py-3 px-2  md:mx-6 md:py-5 flex justify-between">
       <div class="flex flex-col md:flex-row items-center justify-around">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -44,7 +44,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -85,7 +85,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -126,7 +126,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -167,7 +167,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -208,7 +208,7 @@
       <div class="flex flex-col md:flex-row items-center justify-between">
         <a
           href="#"
-          class="text-gray-font hover:text-green-light transition-colors duration-300 ease-linear"
+          class="text-gray-font hover:text-green-light hover:no-underline transition-colors duration-300 ease-linear"
         >
           <div class="flex flex-col md:flex-row items-center">
             <div class="flex">
@@ -248,4 +248,16 @@ export default {
 </script>
 
 <style scoped>
+.nv-transition {
+  animation: 0.5s appear;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 </style>

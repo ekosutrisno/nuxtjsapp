@@ -4,28 +4,28 @@
       <div class="container mx-auto">
         <h1 class="pt-16 text-center text-left font-semibold text-gray-font text-3xl">Nuxt<span class="text-green-secondary">JS</span> Newsletter</h1>
         <p class="font-medium text-gray-300 text-center py-4">Get the latest Nuxt news to your inbox, curated by the core team and contributors.</p>
-        <form class="flex justify-center w-full">
+        <form class="flex justify-center">
           <input
             type="text"
-            class="px-6 py-3 bg-white placeholder-gray-500 rounded-r-none rounded-l-md border outline-none focus:border-green-500 text-gray-dark"
+            class="px-6 py-3 w-48 md:w-64  bg-white placeholder-gray-500 rounded-r-none rounded-l-md border outline-none focus:border-green-500 text-gray-dark"
             required
             placeholder="Email"
           >
-          <button class="uppercase text-gray-font px-6 py-3 rounded-l-none rounded-r-md  bg-green-secondary hover:bg-green-light">subcribe</button>
+          <button class="uppercase text-gray-font px-6 py-3 rounded-l-none rounded-r-md focus:border-green-500 focus:outline-none  bg-green-secondary hover:bg-green-light">subcribe</button>
         </form>
       </div>
     </div>
 
     <div class="w-full bg-gray-background xl:border-b border-gray-600 min-h-full">
       <div class="container mx-auto">
-        <div class="flex pt-10 pb-10  flex-col xl:flex-row justify-between">
-          <div class="flex items-center mb-10 xl:mb-0 xl:items-start flex-col">
+        <div class="flex pt-10 pb-10  flex-col sm:flex-row justify-between">
+          <div class="flex items-center mb-10 sm:mb-0 sm:items-start flex-col">
             <h1 class="mb-6 text-left font-semibold text-gray-font text-lg uppercase">Discover</h1>
             <NLink
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               Design resources
             </NLink>
@@ -33,7 +33,7 @@
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               A worldwide team
             </NLink>
@@ -53,7 +53,7 @@
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               Github
             </NLink>
@@ -61,7 +61,7 @@
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               Twitter
             </NLink>
@@ -74,13 +74,13 @@
               Discord
             </NLink>
           </div>
-          <div class="flex items-center xl:items-end flex-col">
+          <div class="flex items-center sm:items-end flex-col">
             <h1 class="mb-6 text-left font-semibold text-gray-font text-lg uppercase">Support</h1>
             <NLink
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               Support NuxtJS
             </NLink>
@@ -88,7 +88,7 @@
               to="#"
               target="_blank"
               rel="noopener noreferrer"
-              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary"
+              class="mb-4 font-semibold text-gray-500 hover:text-green-secondary hover:no-underline"
             >
               The NuxtJS Shop
             </NLink>

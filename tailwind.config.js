@@ -13,6 +13,7 @@ module.exports = {
 				'green-light': '#00E0A1',
 				'gray-font': '#F5F7FA',
 				'gray-hover': '#E2E8F0',
+				'gray-hover-dark': '#2D3748',
 				'gray-background': '#2F495E',
 				'gray-secondary': '#F8FAFC',
 				'gray-primary': '#35495e',

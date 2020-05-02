@@ -7,31 +7,32 @@
             <div class="flex items-center py-2">
               <img
                 class="h-7 xl:h-10"
-                src="@/static/icon-white.png"
+                src="@/static/icon-white-thin.png"
                 alt="nuxt-logo"
               />
               <div>
-                <div class="font-medium tracking-widest text-2xl xl:text-3xl ml-3 text-white">EKSHO<span class="tracking-widest text-green-secondary">APP</span></div>
+                <div class="font-medium tracking-widest text-2xl xl:text-3xl ml-3 text-white">EKSHO<span class="tracking-widest font-medium text-green-secondary">APP</span></div>
 
               </div>
             </div>
           </NLink>
 
-          <div class="flex py-2 hidden md:block lg:block xl:block">
-            <NLink
-              to="/"
+          <div class="flex py-2 hidden lg:block xl:block">
+            <a
+              href="http://localhost:8081/"
+              target="_blank"
               class="transition-colors ease-in-out duration-300 mr-12 hover:text-green-light font-normal uppercase text-white"
-            >Guide</NLink>
+            >Guide</a>
             <NLink
-              to="/"
+              to="/api"
               class="transition-colors ease-in-out duration-300 mr-12 hover:text-green-light font-normal uppercase text-white"
             >Api</NLink>
             <NLink
-              to="/"
+              to="/example"
               class="transition-colors ease-in-out duration-300 mr-12 hover:text-green-light font-normal uppercase text-white"
             >Example</NLink>
             <NLink
-              to="/"
+              to="/faq"
               class="transition-colors ease-in-out duration-300 mr-12 hover:text-green-light font-normal uppercase text-white"
             >Faq</NLink>
             <NLink
@@ -39,7 +40,7 @@
               class="transition-colors ease-in-out duration-300 mr-12 hover:text-green-light font-normal uppercase text-white"
             >Resources</NLink>
             <NLink
-              to="/"
+              to="/blog"
               class="transition-colors ease-in-out duration-300 hover:text-green-400 foligtext-green-lightnormal uppercase text-white"
             >Blog</NLink>
           </div>

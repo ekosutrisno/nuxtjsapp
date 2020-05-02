@@ -3,7 +3,7 @@
     width="245"
     height="180"
     class="NuxtLogo mx-auto"
-    src="@/static/icon-gray.png"
+    src="@/static/icon-gray-thin.png"
     alt="icon"
   >
 </template>

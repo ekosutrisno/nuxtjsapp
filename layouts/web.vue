@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <div class="min-h-screen">
+    <div class="min-h-full">
       <nuxt />
     </div>
     <Footer />
@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Navbar from "~/components/about/Navbar";
-import Footer from "~/components/about/Footer";
-import NavbarFooter from "~/components/about/NavbarFooter";
+import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
+import NavbarFooter from "~/components/NavbarFooter";
 export default {
   components: { Navbar, Footer, NavbarFooter }
 };
