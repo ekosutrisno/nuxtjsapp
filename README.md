@@ -1,6 +1,6 @@
-# first-nuxt-app
+# Vue, Nuxt.js and TailwindCss
 
-> first app using nuxtjs
+> Redesign Excercise Using Tailwind CSS
 
 ## Build Setup
 
