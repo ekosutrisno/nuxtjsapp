@@ -593,7 +593,7 @@
               width="450px"
               :src="article.cover"
               alt="main-thumnail"
-              class="rounded w-auto mb-4 lg:mb-0 lg:max-w-full lg:h-56"
+              class="rounded w-full xl:w-auto mb-4 lg:mb-0 lg:max-w-full lg:h-56"
             >
           </div>
         </article>
@@ -630,11 +630,13 @@ export default {
             }
           ],
 
-          cover: "_nuxt/static/logos/main.png",
+          cover:
+            "https://images.unsplash.com/photo-1515469796227-05ae4d8241a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
           authors: [
             {
               username: "Alexandre Chopin",
-              thumbnail: "_nuxt/static/icon-gray.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             }
           ],
           publish_at: "1 Mei 2020",
@@ -659,15 +661,18 @@ export default {
             }
           ],
 
-          cover: "_nuxt/static/logos/main.png",
+          cover:
+            "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
           authors: [
             {
               username: "Sergey Bedritsky",
-              thumbnail: "_nuxt/static/icon-white-thin.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1506919258185-6078bba55d2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             },
             {
               username: "Sebasten Chopin",
-              thumbnail: "_nuxt/static/icon-gray-thin.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             }
           ],
           publish_at: "8 April 2020",
@@ -692,11 +697,13 @@ export default {
             }
           ],
 
-          cover: "_nuxt/static/logos/main.png",
+          cover:
+            "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
           authors: [
             {
               username: "Krutie Patel",
-              thumbnail: "_nuxt/static/icon-gray-thin.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             }
           ],
           publish_at: "6 April 2020",
@@ -715,11 +722,13 @@ export default {
             }
           ],
 
-          cover: "_nuxt/static/logos/main.png",
+          cover:
+            "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
           authors: [
             {
               username: " Sbastian Chopin",
-              thumbnail: "_nuxt/static/icon-white-thin.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             }
           ],
           publish_at: "4 Juni 2019",
@@ -741,11 +750,13 @@ export default {
             }
           ],
 
-          cover: "_nuxt/static/logos/main.png",
+          cover:
+            "https://images.unsplash.com/photo-1526415634669-2f8899c7b517?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
           authors: [
             {
               username: "Sbastian Chopin",
-              thumbnail: "_nuxt/static/icon-white-thin.png"
+              thumbnail:
+                "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
             }
           ],
           publish_at: "28 Juni 2019",
